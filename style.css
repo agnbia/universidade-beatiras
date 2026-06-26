@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Beatiras";
+    src: url("BeatirasAjuste-Regular.ttf");
+}
+
+body{
+    font-family: "Beatiras";
+    background:#f5f5f5;
+    text-align:center;
+    margin-top:60px;
+}
+
+h1{
+    font-size:48px;
+}
+
+p{
+    font-size:28px;
+}
+
+input{
+    font-family:"Beatiras";
+    font-size:26px;
+    padding:8px 12px;
+}
+
+button{
+    margin-top:20px;
+    font-family:"Beatiras";
+    font-size:24px;
+    padding:10px 20px;
+}
+
+canvas{
+
+    display:block;
+    width:80%;
+    max-width:100%;
+    margin:40px auto;
+    border:1px solid #ccc;
+
+}
+
+label{
+
+    font-size:26px;
+
+}
+
+input[type="radio"]{
+
+    transform:scale(1.3);
+    margin-right:8px;
+
+}
+
+.destaque{
+
+    color:#a03e3e;
+    font-weight:bold;
+
+}
+
+.container{
+
+    width:95%;
+    max-width:1200px;
+    margin:0 auto;
+
+}
+
+.instrucao{
+
+    font-size:24px;
+    color:#666;
+    margin:35px 0 20px 0;
+
+}
+
+.credito{
+
+    font-size:18px;
+    color:#888;
+    margin:40px 0;
+
+}
+
+#baixar{
+    
+    display:none;
+    margin-top:30px;
+    padding:12px 30px;
+    font-family:"Beatiras";
+    font-size:24px;
+    background:#a03e3e;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.2s;
+
+}
+
+#baixar:hover{
+
+    background:#D6A600;
+
+}
+
+.check-etapa{
+
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+
+    font-size:28px;
+
+    margin-top:15px;
+    margin-bottom:10px;
+
+}
+
+.check-etapa input{
+
+    transform:scale(1.8);
+
+}
+
+.instrucao-check{
+
+    font-size:20px;
+
+    color:#666;
+
+    margin-top:0px;
+    margin-bottom:35px;
+
+}
+
+#linkTirinha{
+
+    color:#a03e3e;
+    font-size:26px;
+    text-decoration:none;
+
+}
+
+#linkTirinha:hover{
+
+    color:#D6A600;
+
+}
+
+.grupo-opcoes{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:35px;
+
+}
+
+.opcao{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 18px;
+    border:2px solid #d8d8d8;
+    border-radius:12px;
+    background:white;
+    cursor:pointer;
+    transition:.2s;
+
+}
+
+.opcao img{
+
+    width:55px;
+    height:55px;
+
+}
+
+.opcao span{
+
+    font-size:24px;
+
+}
+
+.opcao:hover{
+
+    border-color:#a03e3e;
+
+}
+
+#nome{
+
+    width:450px;
+    max-width:90%;
+
+}
+

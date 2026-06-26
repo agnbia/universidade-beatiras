@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Universidade Beatiras</title>
+    <link rel="icon" href="favicon.png.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Universidade Beatiras</h1>
+    <p class="subtitulo"> Siga as etapas e gere seu <span class="destaque">certificado de festa junina</span> personalizado.</p>
+
+    <h2>Etapa 1: Já estudou a tirinha na Beatiras?</h2>
+
+    <p>
+        <a href="https://www.instagram.com/p/DZ--AqLD3ED/?img_index=1" id="linkTirinha" target="_blank">
+            📖 Ler a tirinha
+        </a>
+    </p>
+
+    <label class="check-etapa">
+        <input type="checkbox" id="confirmacao">
+        👉 <span class="destaque">Sim, quero meu certificado!</span>
+    </label>
+    
+    <p class="instrucao-check">
+        Selecione a caixa para liberar o formulário.
+    </p>
+
+<br><br>
+
+    <h2>Etapa 2: Responda as questões:</h2>
+    <p><span class="destaque">Nome completo</span></p>
+    <input type="text" id="nome" placeholder="Escreva aqui" disabled>
+
+    <br><br>
+
+    <p>Qual sua <span class="destaque">comida</span> favorita de festa junina?</p>
+
+    <div class="grupo-opcoes">
+
+    <label class="opcao">
+        <input type="radio" name="comida" value="Pipoca" disabled>
+        <img src="icon-pipoca.png" alt="Pipoca">
+        <span>Pipoca</span>
+    </label>
+
+    <label class="opcao">
+        <input type="radio" name="comida" value="Paçoca" disabled>
+        <img src="icon-pacoca.png" alt="Paçoca">
+        <span>Paçoca</span>
+    </label>
+
+    <label class="opcao">
+        <input type="radio" name="comida" value="Arroz doce" disabled>
+        <img src="icon-arroz-doce.png" alt="Arroz doce">
+        <span>Arroz doce</span>
+    </label>
+
+    <label class="opcao">
+        <input type="radio" name="comida" value="Curau" disabled>
+        <img src="icon-curau.png" alt="Curau">
+        <span>Curau</span>
+    </label>
+
+</div>
+
+    <br><br>
+
+    <p>Qual sua <span class="destaque">bebida</span> favorita de festa junina?</p>
+
+    <div class="grupo-opcoes">
+
+    <label class="opcao">
+        <input type="radio" name="bebida" value="Quentão" disabled>
+        <img src="icon-quentao.png" alt="Quentão">
+        <span>Quentão</span>
+    </label>
+
+    <label class="opcao">
+        <input type="radio" name="bebida" value="Vinho quente" disabled>
+        <img src="icon-vinho-quente.png" alt="Vinho quente">
+        <span>Vinho quente</span>
+    </label>
+
+    <label class="opcao">
+        <input type="radio" name="bebida" value="Guaraná" disabled>
+        <img src="icon-guarana.png" alt="Guaraná">
+        <span>Guaraná</span>
+    </label>
+
+    <label class="opcao">
+        <input type="radio" name="bebida" value="Chopp" disabled>
+        <img src="icon-chopp.png" alt="Chopp">
+        <span>Chopp</span>
+    </label>
+
+</div>
+
+    <br><br>
+
+    <button id="gerar" disabled>Gerar certificado</button>
+
+    <p class="instrucao">
+    Escolha as opções quantas vezes quiser. Quando gostar do resultado, baixe seu certificado! 🌽
+    </p>
+
+    <canvas id="certificado" width="2020" height="1414"></canvas>
+
+    <button id="baixar">BAIXAR</button>
+
+    <p class="credito"> Criado por <strong>Beatiras Quadrinhos</strong> © 2026</p>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
