@@ -201,3 +201,15 @@ input[type="radio"]{
 
 }
 
+.aviso-download{
+
+    display:none;
+    
+    font-size:18px;
+    color:#666;
+    max-width:650px;
+    margin:15px auto 0;
+    line-height:1.4;
+
+}
+

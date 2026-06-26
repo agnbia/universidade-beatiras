@@ -39,6 +39,7 @@ function gerarCertificado() {
         ctx.fillText(bebida, 1512, 875);
 
         document.getElementById("baixar").style.display = "inline-block";
+        document.querySelector(".aviso-download").style.display = "block";
 
     } 
 }
